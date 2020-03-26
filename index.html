@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Test??</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div id="root">
+		<div class="block left">
+			<p>Информация о пациенте</p>
+			<div class="about">
+				<table>
+					<tr>
+						<td>ФИО</td><td id="about-fio"></td>
+					</tr>
+					<tr>
+						<td>Возраст</td><td id="about-age"></td>
+					</tr>
+					<tr>
+						<td>Диагноз</td><td id="about-diagnosis"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="block right">
+			<div id="nav" class="nav">
+				<a class="active" href="/">Присутствуют(11)</a>
+				<a href="/">Выбывшие(5)</a>
+			</div>
+			<div class="about">
+				<table id="list">
+					<tr>
+						<td>№ ИБ</td><td>ФИО</td><td>Палата</td>
+					</tr>
+					<tr>
+						<td>1</td><td>Сергей Божко</td><td>21</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./scripts/main.js"></script>
+</body>
+</html>
