@@ -16,7 +16,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: row;
-  background: url("/images/bck.jpg") no-repeat center center;
+  background: url("./images/bck.jpg") no-repeat center center;
 }
 
 .block {

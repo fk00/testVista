@@ -17,7 +17,6 @@ function addEvent(elem, type, handler){
 
 var presentList = JSON.parse(newQuery('presentList.json'));
 var quittingList = JSON.parse(newQuery('quittingList.json'));
-console.log(presentList);
 
 var navBlock = document.getElementById("nav");
 navBlock.innerHTML = "";
